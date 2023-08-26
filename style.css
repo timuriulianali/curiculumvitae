@@ -1,0 +1,45 @@
+.moving-gradient {
+    background: linear-gradient(180deg, #00439f, #009f92, #00d2c0);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 29s ease infinite;
+    -moz-animation: AnimationName 29s ease infinite;
+    -o-animation: AnimationName 29s ease infinite;
+    animation: AnimationName 29s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+
+.profileimg {
+    border-radius: 50%;
+    /*border: 10px solid white; */
+}
+
+.contrast-text {
+    color: white;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
